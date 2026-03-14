@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameControlSystem.Strategies
 {
-    internal interface IModeStrategy
+    public interface IModeStrategy
     {
+        bool CanExecute();
     }
 }

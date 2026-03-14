@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameControlSystem.Observers
 {
-    internal interface IObserver
+    public interface IObserver
     {
+        void Update(string message);
     }
 }

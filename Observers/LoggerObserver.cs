@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameControlSystem.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,11 @@ using System.Threading.Tasks;
 
 namespace GameControlSystem.Observers
 {
-    internal class LoggerObserver
+    public class LoggerObserver : IObserver
     {
+        public void Update(string message)
+        {
+            Logger.Instance.Log(message);
+        }
     }
 }

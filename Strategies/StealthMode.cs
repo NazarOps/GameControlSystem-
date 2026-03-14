@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameControlSystem.Strategies
 {
-    internal class StealthMode
+    public class StealthMode : IModeStrategy
     {
+        public bool CanExecute() => false;
     }
 }

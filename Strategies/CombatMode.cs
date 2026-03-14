@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameControlSystem.Strategies
 {
-    internal class CombatMode
+    public class CombatMode : IModeStrategy
     {
+        public bool CanExecute() => true;
     }
 }

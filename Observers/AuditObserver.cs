@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameControlSystem.Observers
 {
-    internal class AuditObserver
+    public class AuditObserver : IObserver
     {
+        public void Update(string message)
+        {
+            Console.WriteLine($"Audit: {message}");
+        }
     }
 }
