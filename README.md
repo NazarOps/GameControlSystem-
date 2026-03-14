@@ -4,7 +4,9 @@ A simple project that demonstrates design patterns and how they can be implement
 # Overview:
 GameControlSystem is an example of how design patterns can look when developing a game. In this project I've chosen the Observer, Strategy and Command patterns in which I will explain in detail what they do and how they work.
 
-#Design Patterns Used
+---------
+
+# Design Patterns Used
 
 ## Observer
 The Observer pattern is used to notify multiple parts of the system when something changes.
