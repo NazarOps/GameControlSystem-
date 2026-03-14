@@ -56,6 +56,7 @@ Instead of interacting with many classes directly, the main program communicates
 This keeps the main program clean and easy to understand.
 
 ## Example Output
+```text
 Game Control System started
 Door opened
 Dashboard: Door opened
