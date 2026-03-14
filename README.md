@@ -56,17 +56,18 @@ Instead of interacting with many classes directly, the main program communicates
 This keeps the main program clean and easy to understand.
 
 ## Example Output
-```text
+```
 Game Control System started
 Door opened
 Dashboard: Door opened
 LOG: Door opened
 Audit: Door opened
 
+
 Light turned on
 Music started
 
 Replaying last commands...
-
+````
 # How to run
 Clone the repo to your local directory and open .csproj using Visual Studio
