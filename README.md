@@ -69,5 +69,18 @@ Music started
 
 Replaying last commands...
 ````
+
+## Project Structure
+GameControlSystem
+├── Commands
+├── Core
+├── Devices
+├── Observers
+├── Strategies
+└── Program.cs
+
 # How to run
 Clone the repo to your local directory and open .csproj using Visual Studio
+
+# Additional Remarks
+The point of this project is not to build an advanced gaming control system, but instead to simply demonstrate design patterns and their purpose
