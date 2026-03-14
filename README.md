@@ -70,7 +70,7 @@ Music started
 Replaying last commands...
 ````
 
-## Project Structure
+# Project Structure
 GameControlSystem
 ├── Commands
 ├── Core
