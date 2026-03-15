@@ -77,7 +77,9 @@ GameControlSystem
 ├── Devices
 ├── Observers
 ├── Strategies
+├── UML/UML.png
 └── Program.cs
+
 
 # How to run
 Clone the repo to your local directory and open .csproj using Visual Studio
